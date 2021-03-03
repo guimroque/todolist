@@ -12,4 +12,4 @@ APP para gerenciar suas tarefas e organiza-las
 
                 npm start
 
-E pronto, seu projeto está rodando em ambiente local.
+E pronto, seu projeto está rodando em ambiente local no endereço http://localhost:3000.
