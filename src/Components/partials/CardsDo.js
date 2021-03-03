@@ -5,7 +5,6 @@ import EditIcon from '@material-ui/icons/Edit';
 import Button from '@material-ui/core/Button';
 import SubjectIcon from '@material-ui/icons/Subject';
 import PopupEdit from '../partials/PopupEdit';
-import { Grow } from '@material-ui/core';
 
 
 //my components
@@ -25,11 +24,7 @@ function CardsDo(props) {
   const {title, description, endTime, coments, id, tam} = props
 
   return(
-    <Grow
-              in={true}
-              style={{ transformOrigin: "0 0 0" }}
-              {...{ timeout: 500 }}
-    >
+    
     <div className={classes.list}>
       <div className={classes.cardTitle}>
         <div>{title}</div>
@@ -57,7 +52,6 @@ function CardsDo(props) {
         <DialogEdit/>
       </PopupEdit>     
     </div>
-  </Grow>
   );
 }
 
