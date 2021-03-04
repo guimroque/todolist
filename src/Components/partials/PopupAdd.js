@@ -6,7 +6,7 @@ import DialogContent from '@material-ui/core/DialogContent';
 // import { Container } from './styles';
 
 function PopupAdd(props) {
-    const {children, openPopup, setOpenPopup, status} = props;
+    const {openPopup, setOpenPopup, status} = props;
   return(
     <Dialog
         open={openPopup}

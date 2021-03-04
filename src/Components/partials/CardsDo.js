@@ -21,7 +21,7 @@ function CardsDo(props) {
   
   //set consts
   const [openPopUpEdit, setOpenPopUpEdit] = useState(false)
-  const {title, description, endTime, coments, id, tam} = props
+  const {title, description,id,} = props
 
   return(
     

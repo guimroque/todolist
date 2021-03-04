@@ -22,7 +22,7 @@ function CardsFinished(props) {
 
   //set consts
   const [openPopUpEdit, setOpenPopUpEdit] = useState(false)
-  const {title, description, endTime, coments, id, tam} = props
+  const {title, description,} = props
 
   return(
     <div className={classes.list}>

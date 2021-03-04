@@ -6,7 +6,7 @@ import DialogContentEd from '@material-ui/core/DialogContent';
 // import { Container } from './styles';
 
 function PopupEdit(props) {
-    const {children, openPopup, setOpenPopup, edit} = props;
+    const {openPopup, setOpenPopup, edit} = props;
     return(
     <DialogEd
         open={openPopup}
